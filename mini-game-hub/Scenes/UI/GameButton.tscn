@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/game_button.gd" id="1"]
+
+[node name="GameButton" type="Button"]
+custom_minimum_size = Vector2(240, 50)
+size_flags_horizontal = 3
+text = "Game"
+script = ExtResource("1")

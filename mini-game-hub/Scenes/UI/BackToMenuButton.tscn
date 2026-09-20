@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/back_to_menu_button.gd" id="1"]
+
+[node name="BackToMenuButton" type="Button"]
+custom_minimum_size = Vector2(200, 50)
+text = "Back to Main Menu"
+script = ExtResource("1")
