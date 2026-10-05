@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://dud5evupphicd"]
+
+[ext_resource type="PackedScene" path="res://Scenes/UI/GameButton.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://bl35nxv6fm4c5" path="res://Scenes/Games/ExampleGame.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://w84vikms4bi7" path="res://Scenes/Games/Capy Ball/CapyBall Main Scene.tscn" id="2_8saeu"]
+
+[node name="MainMenu" type="Control" unique_id=601452705]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="." unique_id=689289404]
+layout_mode = 0
+anchor_right = 1.0
+offset_top = 24.0
+offset_bottom = 74.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 32
+text = "Mini Game Hub"
+horizontal_alignment = 1
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=164977334]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CenterContainer" unique_id=362159991]
+custom_minimum_size = Vector2(280, 400)
+layout_mode = 2
+
+[node name="GameButtonList" type="VBoxContainer" parent="CenterContainer/ScrollContainer" unique_id=385066947]
+custom_minimum_size = Vector2(260, 0)
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="GameButton" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=916797291 instance=ExtResource("1")]
+layout_mode = 2
+target_scene = ExtResource("2_8saeu")
+
+[node name="ExampleGameButton" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=1806141993 instance=ExtResource("1")]
+layout_mode = 2
+text = "Example Game"
+target_scene = ExtResource("2")

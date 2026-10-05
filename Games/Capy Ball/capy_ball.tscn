@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dh2ktdska1fi5"]
+
+[ext_resource type="Texture2D" uid="uid://ng5ko0digrag" path="res://Assets/WBF Logo.png" id="1_ga6vs"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0h33x"]
+radius = 825.3787
+
+[node name="Capy Ball" type="RigidBody2D" unique_id=560801897]
+position = Vector2(170, 97)
+
+[node name="Ball Sprite" type="Sprite2D" parent="." unique_id=1554612258]
+scale = Vector2(0.04, 0.04)
+texture = ExtResource("1_ga6vs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=402664613]
+scale = Vector2(0.04, 0.04)
+shape = SubResource("CircleShape2D_0h33x")

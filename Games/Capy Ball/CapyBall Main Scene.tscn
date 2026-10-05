@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://w84vikms4bi7"]
+
+[ext_resource type="PackedScene" uid="uid://dh2ktdska1fi5" path="res://Scenes/Games/Capy Ball/capy_ball.tscn" id="1_8llu5"]
+[ext_resource type="PackedScene" uid="uid://d11f1aytujxy8" path="res://Scenes/Games/Capy Ball/wall_container.tscn" id="2_v4y2a"]
+[ext_resource type="Texture2D" uid="uid://bkd4cu3a8l4al" path="res://Scenes/Games/Capy Ball/Assets/WIN.png" id="4_udmnt"]
+[ext_resource type="Texture2D" uid="uid://lqjomjl4yo60" path="res://Scenes/Games/Capy Ball/Assets/lose.png" id="5_j1pap"]
+
+[node name="Node2D" type="Node2D" unique_id=1495046648]
+
+[node name="Capy Ball" parent="." unique_id=1065693124 instance=ExtResource("1_8llu5")]
+position = Vector2(262, 36)
+
+[node name="WallContainer" parent="." unique_id=1815146816 instance=ExtResource("2_v4y2a")]
+
+[node name="Win" type="Sprite2D" parent="." unique_id=656420228]
+position = Vector2(273.00003, 917)
+scale = Vector2(0.53074956, 0.5965353)
+texture = ExtResource("4_udmnt")
+
+[node name="Lose" type="Sprite2D" parent="." unique_id=1722225501]
+position = Vector2(459.00003, 918)
+scale = Vector2(0.54747856, 0.5372314)
+texture = ExtResource("5_j1pap")
+
+[node name="Lose2" type="Sprite2D" parent="." unique_id=324452818]
+position = Vector2(75.00006, 921)
+scale = Vector2(0.54747856, 0.5372314)
+texture = ExtResource("5_j1pap")
+
+[editable path="Capy Ball"]
