@@ -41,10 +41,14 @@ theme_override_constants/separation = 12
 
 [node name="GameButton" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=916797291 instance=ExtResource("1")]
 layout_mode = 2
+text = "Capy Ball
+"
 target_scene = ExtResource("2_8saeu")
 
 [node name="GameButton2" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=552533347 instance=ExtResource("1")]
 layout_mode = 2
+text = "Dodge the creeps 2D
+"
 target_scene = ExtResource("2_h7a2f")
 
 [node name="ExampleGameButton" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=1806141993 instance=ExtResource("1")]
