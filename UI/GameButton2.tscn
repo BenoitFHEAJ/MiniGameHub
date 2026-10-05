@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://2vuhgpm47hae"]
+
+[ext_resource type="Script" uid="uid://ck1d4dqapp2cv" path="res://Scripts/game_button.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://boyppmtub411f" path="res://Games/Dodge The creeps 2D/player.tscn" id="2_e2b25"]
+
+[node name="GameButton" type="Button" unique_id=1784418469]
+custom_minimum_size = Vector2(240, 50)
+size_flags_horizontal = 3
+text = "Game"
+script = ExtResource("1")
+target_scene = ExtResource("2_e2b25")

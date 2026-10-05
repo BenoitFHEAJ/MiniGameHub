@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bl35nxv6fm4c5"]
 
-[ext_resource type="PackedScene" path="res://Scenes/UI/BackToMenuButton.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://UI/BackToMenuButton.tscn" id="1"]
 
 [node name="ExampleGame" type="Control" unique_id=122396688]
 layout_mode = 3

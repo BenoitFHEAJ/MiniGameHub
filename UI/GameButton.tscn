@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://dkjmuxn3cb4wm"]
 
-[ext_resource type="Script" path="res://Scripts/game_button.gd" id="1"]
+[ext_resource type="Script" uid="uid://ck1d4dqapp2cv" path="res://Scripts/game_button.gd" id="1"]
 
-[node name="GameButton" type="Button"]
+[node name="GameButton" type="Button" unique_id=552533347]
 custom_minimum_size = Vector2(240, 50)
 size_flags_horizontal = 3
 text = "Game"
